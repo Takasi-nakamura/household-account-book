@@ -1,0 +1,14 @@
+{
+  "name": "kakei — 家計簿",
+  "short_name": "kakei",
+  "description": "すばやく記録して、支出を見える化するPWA家計簿",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#0f172a",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
