@@ -97,7 +97,7 @@
       <label class="import-btn">JSONを読み込む<input id="importInput" type="file" accept=".json,application/json"></label>
     </footer>
   </div>
-  <div id="toast" class="toast" role="status"></div>
+  <div id="sharedExpenseModal" class="shared-modal" role="dialog" aria-modal="true" aria-labelledby="sharedExpenseTitle"><div class="shared-modal-card"><button id="closeSharedExpense" class="modal-close" aria-label="閉じる">×</button><p class="eyebrow">SHARED EXPENSE</p><h2 id="sharedExpenseTitle">出費の共有</h2><div class="shared-expense"><div class="shared-expense-icon">¥</div><strong id="sharedExpenseAmount">¥0</strong><span id="sharedExpenseStore">—</span><small><span id="sharedExpenseCategory">—</span> · <span id="sharedExpenseDate">—</span></small></div></div></div><div id="toast" class="toast" role="status"></div>
   <script src="./app.js"></script>
 </body>
 </html>
